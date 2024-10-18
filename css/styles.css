@@ -177,6 +177,6 @@ footer a:hover {
 
 @media (width < 576px) {
     .grid-hardware {
-        padding: 0 5rem;
+        padding: 0 4rem;
     }
 }
