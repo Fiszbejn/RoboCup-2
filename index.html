@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Robô - Spyke</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top bg-black">
+        <div class="container-fluid mx-2 my-3">
+            <a class="navbar-brand fw-semibold fs-2" href="#">
+                <i class="raio bi bi-lightning-charge-fill me-2"></i>Spyke</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-filter-right fs-2"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 ms-auto mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#robo">Robô</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#arma">Arma</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a class="nav-link" href="#carouselExampleIndicators">Fotos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Vídeos
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li class="text-yellow"><a class="dropdown-item" href="#videoMontagem">Vídeo
+                                    Montagem</a></li>
+                            <li>
+                                <hr class="dropdown-divider-primary">
+                            </li>
+                            <li><a class="dropdown-item" href="#videoRobo">Vídeo Robô</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hardware">Hardware</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid my-5">
+        <div id="carouselExampleIndicators" class="carousel slide mx-auto">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-current="true" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/imagem-robo5.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/imagem-robo3.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/imagem-robo2.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/imagem-robo1.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/imagem-robo4.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <section class="container p-5" id="robo">
+        <h2 class="display-5 text-purple text-center mb-4 text-shadow">Nosso Robô</h2>
+        <p class="text-light lead text-center paragrafo text-shadow">O Spyke é um robô construido com o objetivo de
+            participar e ganhar a RoboCup, uma competição feita pela FIAP que terá
+            eliminatórias no evento Next. Com vários meses de desenvolvimento o projeto do nosso robô está chegando
+            próximo de sua
+            forma e capacidade final, mais ainda com pequenas possíveis atualizações no projeto visando melhorias.
+        </p>
+
+        <div class="ratio ratio-16x9" id="videoRobo">
+            <iframe class="my-5" src="https://www.youtube.com/embed/ZalYVat2c7M?si=-p33VZRnGhcRCvAE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="container p-5" id="arma">
+        <h3 class="text-purple text-center display-5 mb-4 text-shadow">Como a arma do <span
+                class="text-yellow">Spyke</span>
+            funciona ?</h3>
+        <p class="text-light lead text-center paragrafo text-shadow">A arma se baseia no movimento de uma
+            corrediça
+            ocasionado pelo contato com uma pequena roda que recebe um torque de um motor de 5v, quando um dos
+            sensores (chaves de fim de curso) for acionado pela colisão do robô com um oponente ou uma parede a arma
+            do robô irá se esticar assim atingindo o robô adversário com uma vassoura de alfinetes que se localiza
+            na ponta da corrediça!</p>
+    </section>
+
+    <section class="container p-5 mt-5">
+        <h2 class="display-5 text-purple text-center text-shadow">Vídeo da Montagem do Robô</h2>
+        <div class="ratio ratio-16x9 mt-5" id="videoMontagem">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gOaNt6efca0?si=-9MQu6fqaW1ZVcbP"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="container p-5">
+        <h2 class="display-4 text-purple text-shadow text-center mb-4">RoboCup e Next</h2>
+        <p class="text-light lead text-center paragrafo text-shadow">A ROBOCUP é uma competição organizada pela FIAP que
+            visa o aprendizado e o desenvolvimento dos alunos de 1º ano do curso de Sistemas de Informação, onde os
+            mesmos divididos em grupos precisam contruir um robô que participará de uma batalha em ringue no evento,
+            onde o objetivo da luta é estourar o balão posicionado em cima do robô inimigo, cada robô tem uma arma
+            específica possibilitando diversas estratégias. Já o NEXT é um grande evento da FIAP que o objetivo é atrair
+            visibilidade de empresas para visualizarem e conhecerem de perto os grandes trabalhos de desenovolvimento de
+            cada ano e curso da faculdade, assim com o interresse permitindo possíveis investimentos em projetos e
+            contratações de alunos.</p>
+    </section>
+
+    <section class="container-fluid my-5 grid-hardware">
+        <h2 class="display-4 text-center text-purple text-shadow mb-5" id="hardware">Hardware</h2>
+        <div class="row row-gap-4">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <div class="card bg-black">
+                    <img src="./images/arduino.jpg" class="card-img-top" alt="imagem arduino">
+                    <div class="card-body">
+                        <h5 class="card-title text-light mb-4 lead">Arduino Mega 2560</h5>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed bg-yellow" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Mais Informações
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse bg-purple"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-light">Arduino é uma plataforma que possibilita
+                                        o desenvolvimento de projetos eletrônicos. Em outras palavras, é uma
+                                        plataforma
+                                        de prototipagem eletrônica.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <div class="card bg-black">
+                    <img src="./images/protoboard.jpeg" class="card-img-top" alt="imagem arduino">
+                    <div class="card-body">
+                        <h5 class="card-title text-light mb-4 lead">Protoboard</h5>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed bg-yellow" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Mais Informações
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse bg-purple"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-light">As protoboards geralmente têm linhas de
+                                        conexão internas que permitem a conexão dos componentes de forma organizada,
+                                        seguindo uma configuração padrão. Isso facilita a montagem de circuitos
+                                        complexos e a realização de testes rápidos e
+                                        experimentação com diferentes configurações de componentes.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <div class="card bg-black">
+                    <img src="./images/chavefimdecurso.jpeg" class="card-img-top" alt="imagem arduino">
+                    <div class="card-body">
+                        <h5 class="card-title text-light mb-4 lead">Chave de Fim de Curso</h5>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed bg-yellow" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Mais Informações
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse bg-purple"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-light">A função é detectar o fim de um movimento
+                                        ou a presença de um objeto em uma posição específica, interrompendo ou
+                                        acionando um
+                                        circuito elétrico para controlar o movimento das máquinas.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <div class="card bg-black">
+                    <img src="./images/motor.jpg" class="card-img-top" alt="imagem arduino">
+                    <div class="card-body">
+                        <h5 class="card-title text-light mb-4 lead">Motor 5v</h5>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed bg-yellow" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                        aria-expanded="false" aria-controls="flush-collapseFour">
+                                        Mais Informações
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse bg-purple"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-light">O motor de 5v é um excelente componente
+                                        elétrico utilizado em projetos robóticos, onde é necessário o ajuste preciso
+                                        do posicionamento
+                                        ou a rotação exata de um ângulo, como na arma do nosso robô, por exemplo.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <div class="card bg-black">
+                    <img src="./images/jumpers.jpeg" class="card-img-top" alt="imagem arduino">
+                    <div class="card-body">
+                        <h5 class="card-title text-light mb-4 lead">Jumpers</h5>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed bg-yellow" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                        aria-expanded="false" aria-controls="flush-collapseFive">
+                                        Mais Informações
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse bg-purple"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-light">Um jumper é um condutor curto usado para
+                                        fechar, abrir ou desviar parte de um circuito eletrônico. Eles normalmente
+                                        são
+                                        usados ​​para instalar ou configurar placas de circuito impresso, como
+                                        placas micro-controladoras</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <div class="card bg-black">
+                    <img src="./images/modulobluetooth.jpeg" class="card-img-top" alt="imagem arduino">
+                    <div class="card-body">
+                        <h5 class="card-title text-light mb-4 lead">Módulo Bluetooth HC06</h5>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed bg-yellow" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
+                                        aria-expanded="false" aria-controls="flush-collapseSix">
+                                        Mais Informações
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse bg-purple"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-light">O Módulo Bluetooth HC-06 é um componente
+                                        eletrônico utilizado para comunicação sem fio, compatível com a versão
+                                        Bluetooth V2. 0+EDR, frequentemente aplicado em projetos de automação e
+                                        controle remoto.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <div class="card bg-black">
+                    <img src="./images/shieldemotor.jpeg" class="card-img-top" alt="imagem arduino">
+                    <div class="card-body">
+                        <h5 class="card-title text-light mb-4 lead lead">Shield de Motor</h5>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed bg-yellow" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
+                                        aria-expanded="false" aria-controls="flush-collapseSeven">
+                                        Mais Informações
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSeven" class="accordion-collapse collapse bg-purple"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-light">O Motor Shield Arduino L293D é um produto
+                                        bastante utilizado nos mais diversificados projetos uma vez que possibilita
+                                        o
+                                        controle de até quatro Motores DC ou dois Motores de Passo simultaneamente e
+                                        possuir saída para controle de até dois
+                                        Servos Motores com funcionamento também simultâneo.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <div class="card bg-black">
+                    <img src="./images/resistor.jpeg" class="card-img-top" alt="imagem arduino">
+                    <div class="card-body">
+                        <h5 class="card-title text-light mb-4 lead">Resistores</h5>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed bg-yellow" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
+                                        aria-expanded="false" aria-controls="flush-collapseEight">
+                                        Mais Informações
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseEight" class="accordion-collapse collapse bg-purple"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-light">O resistor é um componente que limita o
+                                        fluxo da corrente elétrica em um circuito. Por meio do chamado efeito joule,
+                                        ele
+                                        é capaz de transformar a energia elétrica em energia térmica. Na verdade, o
+                                        dispositivo faz oposição à passagem da
+                                        corrente elétrica, oferecendo resistência</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container p-5 d-flex flex-column gap-5 mt-10" id="equipe">
+        <h2 class="display-4 text-center">Nossa Equipe</h2>
+        <div class="d-flex gap-5 justify-content-center">
+            <div id="davi" class="d-flex flex-column align-items-center gap-4">
+                <div class="equipe__image equipe__image-1 rounded-circle"></div>
+                <h5 class="text-yellow fw-light fs-3">Davi</h5>
+            </div>
+            <div id="marcio" class="d-flex flex-column align-items-center gap-4">
+                <div class="equipe__image equipe__image-2 rounded-circle"></div>
+                <h5 class="text-yellow fw-light fs-3">Marcio</h5>
+            </div>
+            <div id="clara" class="d-flex flex-column align-items-center gap-4">
+                <div class="equipe__image equipe__image-3 rounded-circle"></div>
+                <h5 class="text-yellow fw-light fs-3">Clara</h5>
+            </div>
+            <div id="gabriel" class="d-flex flex-column align-items-center gap-4">
+                <div class="equipe__image equipe__image-4 rounded-circle"></div>
+                <h5 class="text-yellow fw-light fs-3">Gabriel</h5>
+            </div>
+        </div>
+        <p class="text-light lead text-center paragrafo">Nós da equipe Spyke do curso de Sistemas de Informação na FIAP
+            está profundamente
+            envolvida na criação de um robô para a competição de luta de
+            robôs da faculdade chamada RoboCup, mas o impacto desse projeto vai muito além da
+            batalha em si. Para nós, esse desafio tem
+            sido uma
+            experiência transformadora, tanto no aspecto profissional quanto no pessoal. Cada etapa de desenvolvimento
+            nos
+            proporciona um aprendizado valioso que não se limita à técnica, mas também às habilidades essenciais no
+            mercado de
+            trabalho.
+
+            No início, cada um de nós assumiu uma função específica, conforme nossas áreas de interesse e expertise.
+            Isso nos fez
+            perceber a importância do trabalho em equipe, da divisão de tarefas e de uma comunicação eficaz. Aprendemos
+            a lidar com
+            prazos, definir prioridades e gerenciar imprevistos. Com isso, estamos nos tornando não apenas melhores
+            desenvolvedores
+            e programadores, mas também profissionais mais preparados para enfrentar desafios do mundo real.
+
+            Além disso, estamos aperfeiçoando nossa capacidade de resolver problemas sob pressão, encontrar soluções
+            criativas e
+            tomar decisões rápidas – qualidades fundamentais para qualquer profissional de tecnologia. Ao trabalhar no
+            design do
+            robô, aprendemos a combinar teoria com prática, transformando conceitos de programação e eletrônica em algo
+            concreto,
+            funcional e competitivo.
+
+            Mais do que apenas construir um robô para vencer, esse projeto tem nos dado uma oportunidade única de
+            desenvolvimento
+            pessoal. Estamos aprimorando habilidades de liderança, colaboração e autogestão. Essa experiência tem nos
+            ensinado que o
+            sucesso vem não só do conhecimento técnico, mas também da nossa capacidade de trabalhar juntos, aprender com
+            os erros e
+            nos adaptar às circunstâncias.
+        </p>
+    </section>
+
+    <section class="container p-4" id="contato">
+        <h2 class="display-4 mb-5 text-center">Entre em Contato</h2>
+        <form id="entreEmContato" name="entreEmContato" method="post" action="">
+            <div class="row row-gap-5">
+                <div class="col-12 col-md-6">
+                    <label for="nomeCompleto" class="form-label display-6 mb-3">Nome Completo:</label>
+                    <input type="text" class="form-control shadow" id="nomeCompleto" name="nomeCompleto" minlength="3"
+                        maxlength="50" placeholder="Ex: Fulano de Tal..." required style="height: 45px;">
+                </div>
+                <div class=" col-12 col-md-6">
+                    <label for="email" class="form-label display-6 mb-3">Email:</label>
+                    <input type="email" class="form-control shadow" id=" email" name="email" maxlength="50"
+                        placeholder="Ex: seuemail@provedor.com" required style="height: 45px;">
+                </div>
+                <div class="col-12">
+                    <label for="mensagem" class="form-label display-6 mb-3">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" class="form-control shadow"
+                        placeholder="Escreva sua mensagem aqui..." maxlength="700"></textarea>
+                </div>
+            </div>
+            <div class="botao d-flex justify-content-end mt-3">
+                <button type="submit" class="btn btn-lg bg-dark text-yellow">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="container-fluid p-0 bg-black d-flex flex-column justify-content-between">
+        <div class="d-flex justify-content-around m-footer">
+            <div class="d-flex align-items-center">
+                <h6 class="text-yellow">FIAP - Sistemas de Informação - 1SIPG</h6>
+            </div>
+            <div class="d-flex gap-4">
+                <div class="d-flex flex-column gap-3">
+                    <a class="text-yellow" href="https://www.linkedin.com/in/davifiszbejn/" target="_blank"><i
+                            class="bi bi-linkedin me-2"></i>Davi
+                        Fiszbejn</a>
+                    <a class="text-yellow"
+                        href="https://www.linkedin.com/in/márcio-yukio-oyafuso-b5137b329/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"><i class="bi bi-linkedin me-2"></i>Marcio
+                        Yukio
+                        Oyafuso</a>
+                </div>
+                <div class="d-flex flex-column gap-3">
+                    <a class="text-yellow"
+                        href="https://www.linkedin.com/in/clara-fonte-136629204/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"><i class="bi bi-linkedin me-2"></i>Clara de
+                        Fonte
+                        Almeida</a>
+                    <a class="text-yellow"
+                        href="https://www.linkedin.com/in/gabriel-yoshida-0817892b7/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"><i class="bi bi-linkedin me-2"></i>Gabriel
+                        Shoiti
+                        Yoshida</a>
+                </div>
+            </div>
+        </div>
+        <p class="text-yellow text-center fw-light">2024 - Designed by Spykers</p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
