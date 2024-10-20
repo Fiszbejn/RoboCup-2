@@ -114,24 +114,28 @@ a {
     background-image: url(../images/profile-davi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
 }
 
 .equipe__image-2 {
     background-image: url(../images/profile-marcio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .equipe__image-3 {
-    background-image: url();
+    background-image: url(../images/profile-clara.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .equipe__image-4 {
     background-image: url(../images/profile-gabriel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: start;
 }
 
 .equipe__group {
